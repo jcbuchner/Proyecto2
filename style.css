@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  #task-form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #task-input {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .task-item span {
+    width: 100px;
+    margin-right: 100px;
+  }
+  
+  .task-item button {
+    margin-left: 10px;
+  }
+  
+  /* .task-item::before {
+    content: counter(task-counter) ".- ";
+    counter-increment: task-counter;
+    font-weight: bold;
+  } */
+  
