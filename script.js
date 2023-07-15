@@ -13,7 +13,7 @@ function addTask(event) {
   const taskText = taskInput.value.trim(); // Obtener el valor del input
 
   if (taskText !== '') {
-    const task = { id: Date.now(), text: taskText }; // Crear un objeto de tarea , toma la hora como identificador para cada tarea...
+    const task = { id: Date.now(), text: taskText }; // Crear un objeto de tarea , toma la hora como identificador para cada tarea......
     tasks.push(task); // Agregar la tarea al array
 
     // Crear el elemento de la lista de tareas
