@@ -55,10 +55,3 @@ body {
   .task-item button {
     margin-left: 10px;
   }
-  
-  /* .task-item::before {
-    content: counter(task-counter) ".- ";
-    counter-increment: task-counter;
-    font-weight: bold;
-  } */
-  
